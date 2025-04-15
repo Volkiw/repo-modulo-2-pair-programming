@@ -1,0 +1,71 @@
+.botones{
+    list-style-type: none;
+}
+
+.button {
+    display:block;
+    padding:20px;
+    border-radius:5px;
+    text-align: center;
+    margin:10px auto;
+    border: none;
+    background-color:lightsteelblue;
+}
+
+.button-toggle {
+    background-color:rgb(234, 132, 132);
+    color:white;
+}
+
+.button:hover {
+    background-color:rgb(184, 88, 88);
+    color:white;
+}
+
+.button-menu {
+    display:block;
+    padding:10px 20px;
+    border-radius:5px;
+    text-align: center;
+    margin:10px auto;
+    border: none;
+    background-color:rgb(102, 144, 145);
+    color:#ffffff;
+}
+
+.hidden {
+    display:none;
+}
+
+.section-lista {
+    max-width:300px;
+    margin:auto;
+    background-color:rgb(126, 182, 184);
+    border-radius:5px;
+    display:block;
+    padding:10px;
+    margin-top:50px;
+}
+
+.section-lista ul {
+    list-style-type:none;
+    background-color:#ffffff;
+    border-radius:5px;
+    padding:0;
+}
+
+.section-lista ul li {
+    padding: 10px;
+    margin:0;
+    border-bottom:1px solid #48afa5;
+}
+
+.section-lista ul .no-border {
+    border-bottom:none;
+}
+
+.cancelar {
+    color:#ffffff;
+    text-decoration: underline;
+    text-align:center;
+}
