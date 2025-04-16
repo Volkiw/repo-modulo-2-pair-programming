@@ -1,4 +1,4 @@
-/* // ejercicio 1 \\
+// ejercicio 1 \\
 
 9 + 7 + 3;
 console.log(9 + 7 + 3); // 19
@@ -20,8 +20,8 @@ const Peras = 2;
 const Uvas = 4;
 console.log(Kiwis * 2 + Peras * 3 + Uvas * 0.5 + "€"); // 5*2 + 2*3 + 4*4 = 10 + 6 + 16 = 32
 console.log("Total compra", Kiwis + Peras + Uvas, "frutas"); // 5 + 2 + 4 = 11
- */
-/* // ejercicio 4 \\
+
+ // ejercicio 4 \\
 const edad = document.querySelector(".js_edad");
 const boton = document.querySelector(".js_boton");
 const resultado = document.querySelector(".js_resultado");
@@ -29,13 +29,13 @@ const resultado = document.querySelector(".js_resultado");
 boton.addEventListener("click", (ev) => {
   console.log(edad.value * 365 * 24);
   resultado.innerHTML = `Tu edad en horas es ${edad.value * 365 * 24}`;
-}); */
+}); 
 
 // ejercicio 6 \\
 
 const nombre = document.querySelector(".js_nombre");
 const caracteres = document.querySelector(".js_caracteres");
 const input = document.querySelector(".js_input");
-const boton = document.querySelector(".js_boton");
+const boton2 = document.querySelector(".js_boton");
 
 console.log("Resultado", nombre.value.length);
