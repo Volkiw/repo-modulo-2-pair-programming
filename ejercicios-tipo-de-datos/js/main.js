@@ -31,11 +31,16 @@ boton.addEventListener("click", (ev) => {
   resultado.innerHTML = `Tu edad en horas es ${edad.value * 365 * 24}`;
 }); 
 
-// ejercicio 6 \\
+// ejercicio 6 a medias \\
 
 const nombre = document.querySelector(".js_nombre");
 const caracteres = document.querySelector(".js_caracteres");
 const input = document.querySelector(".js_input");
 const boton2 = document.querySelector(".js_boton");
 
-console.log("Resultado", nombre.value.length);
+
+boton2.addEventListener("click", (ev) => {
+  nombre.innerHTML = input.value;
+  console.log(input.value);
+})
+
